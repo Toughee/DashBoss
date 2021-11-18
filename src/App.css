@@ -1,0 +1,50 @@
+
+header {
+  float: left;
+  background-color: rgb(4, 53, 22);
+  padding: 1.5rem;
+  width: 18rem;
+  height: 60rem;
+  z-index: 1;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin-left: -2rem;
+  color: rgb(255, 255, 255);
+
+}
+
+.UserPanel {
+  text-align:center;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-top: -2rem;
+}
+
+.PicStyle {
+  font-size: 5rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-bottom: -15rem;
+  display: inline-block;
+  height: 7rem;
+  width: 7rem;
+}
+
+.AppLogo {
+  font-size: 3rem;
+  margin: -1rem;
+}
+
+.TableClass{ 
+  font-size: 2rem;
+}
+
+.AdminContentPageStyle {
+
+  margin-left: 50rem;
+  margin-bottom: -50rem;
+  z-index: 2;
+}
