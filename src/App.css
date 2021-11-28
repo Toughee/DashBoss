@@ -1,50 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Pacifico&family=Saira+Condensed:wght@200&display=swap');
 
 header {
-  float: left;
-  background-color: rgb(4, 53, 22);
-  padding: 1.5rem;
-  width: 18rem;
-  height: 60rem;
-  z-index: 1;
+    background-color: rgb(4, 53, 22);
+    position: fixed;
+    width: 280px;
+    padding: 2rem;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 0;
 }
 
 li {
-  list-style-type: none;
-  font-size: 1.5rem;
-  margin-left: -2rem;
-  color: rgb(255, 255, 255);
-
+    list-style-type: none;
+    font-size: 1.5rem;
+    margin-left: -2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Saira Condensed', sans-serif;
 }
 
 .UserPanel {
-  text-align:center;
-  color: rgb(255, 255, 255);
-  font-size: 2rem;
-  margin-top: -2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-top: -2rem;
 }
 
 .PicStyle {
-  font-size: 5rem;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  margin-bottom: -15rem;
-  display: inline-block;
-  height: 7rem;
-  width: 7rem;
+    font-size: 5rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-bottom: -15rem;
+    display: inline-block;
+    height: 7rem;
+    width: 7rem;
 }
 
 .AppLogo {
-  font-size: 3rem;
-  margin: -1rem;
+    font-size: 3rem;
+    margin: -1rem;
 }
 
-.TableClass{ 
-  font-size: 2rem;
+.TableClass {
+    font-size: 2rem;
 }
 
 .AdminContentPageStyle {
+    position: fixed;
+    padding: 2rem;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    text-align: justify;
+}
 
-  margin-left: 50rem;
-  margin-bottom: -50rem;
-  z-index: 2;
+.AboutPageStyle {
+    position: fixed;
+
+    bottom: 0;
+    right: 0;
+    top: 0;
+    padding: 20rem;
+}
+
+.TeammateStyle {
+    background-color: rgb(109, 104, 104);
+    border-radius: 50%;
+    padding: 5rem 10rem;
+    margin: 0.5rem;
+    text-align: justify;
+}
+
+.TeamPicStyle {
+    font-size: 4rem;
+}
+
+.TeamFontStyle {
+    font-family: 'Estonia', cursive;
 }

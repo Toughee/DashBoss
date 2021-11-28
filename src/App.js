@@ -4,11 +4,9 @@ import React from 'react'
 import TeamsTab from './components/TeamsTab'
 import AboutTab from './components/AboutTab'
 import ChartsTab from './components/ChartsTab'
-import GraphsTab from './components/GraphsTab'
 import HeatMapsTab from './components/HeatMapsTab'
 import SupportTab from './components/SupportTab'
 import ChangelogTab from './components/ChangelogTab'
-import DocsTab from './components/DocsTab'
 
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
@@ -41,12 +39,9 @@ function App() {
                         <hr />
 
                         <Link to="/ChartsTab">
-                            <li>Charts</li>
+                            <li>Charts & Graphs</li>
                         </Link>
 
-                        <Link to="/GraphsTab">
-                            <li>Graphs</li>
-                        </Link>
                         <Link to="/HeatMapsTab">
                             <li>HeatMaps</li>
                         </Link>
@@ -63,15 +58,11 @@ function App() {
                             <li>Changelog</li>
                         </Link>
 
-                        <Link to="/DocsTab">
-                            <li>Documentation</li>
-                        </Link>
-
                         <Routes>
                             <Route path="/TeamsTab" element={<TeamsTab />} />
                             <Route path="/AboutTab" element={<AboutTab />} />
                             <Route path="/ChartsTab" element={<ChartsTab />} />
-                            <Route path="/GraphsTab" element={<GraphsTab />} />
+
                             <Route
                                 path="/HeatMapsTab"
                                 element={<HeatMapsTab />}
@@ -84,7 +75,6 @@ function App() {
                                 path="/ChangelogTab"
                                 element={<ChangelogTab />}
                             />
-                            <Route path="/DocsTab" element={<DocsTab />} />
                         </Routes>
                     </BrowserRouter>
                 </ul>
