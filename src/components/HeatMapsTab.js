@@ -1,11 +1,9 @@
 import React from 'react'
 
+import '../index.css'
+
 export default class HeatMapsTab extends React.Component {
     render() {
-        return (
-            <div className="AdminContentPageStyle">
-                <h1>Users by heatmap location</h1>
-            </div>
-        )
+        return <div id="map"></div>
     }
 }

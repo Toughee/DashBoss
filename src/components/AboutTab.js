@@ -8,21 +8,24 @@ export default class AboutTab extends React.Component {
                 <hr />
 
                 <p>
-                    <strong>A company at a glance:</strong> Have everything
-                    related to your company displayed in one single app. See how
-                    sales, conversion rates and client engagements happen
+                    <strong>A company summary at a glance:</strong> <br />
+                    Have everything related to your company displayed in one
+                    single app. See how sales, conversion rates and client
+                    engagements happen
                 </p>
 
                 <p>
-                    <strong>All relevant corporate info in one web app:</strong>{' '}
+                    <strong>All relevant corporate info in one web app:</strong>
+                    <br />
                     Receive a quick summary for everything related to your
-                    company and have it easily{' '}
+                    company and have it easily
                 </p>
 
                 <p>
-                    <strong>Proof of concept: </strong>The app is entirely a
-                    example of an admin page and is not related to any exisitng
-                    company
+                    <strong>Proof of concept: </strong>
+                    <br />
+                    The app is entirely a example of an admin page and is not
+                    related to any exisitng company
                 </p>
             </div>
         )
