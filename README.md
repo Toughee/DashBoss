@@ -41,5 +41,4 @@ Proof of concept:
 
 - [ ] Develop tests for each React component
 - [ ] Better U/I scheme for app
-- [ ] Add interactive map section 
-
+- [ ] Add interactive map section for app
