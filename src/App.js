@@ -14,11 +14,15 @@ function App() {
     return (
         <div className="App">
             <header>
-                <span className="AppLogo">💼</span>
+                <br />
+                <br />
+                <br />
 
                 <aside className="UserPanel">
                     <span className="PicStyle">👱</span>
-                    <p className="UserNameStyle">username</p>
+                    <p className="UserNameStyle">
+                        username <button>🖋️ edit</button>
+                    </p>
                 </aside>
 
                 <ul>

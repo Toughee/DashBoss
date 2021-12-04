@@ -19,28 +19,30 @@ export default class TeamsTab extends React.Component {
                                 <AiOutlineUser />
                             </span>
                             <hr />
-                            <p>name</p>
+                            <p>Hailey Green</p>
                             <p>Team Lead</p>
-                            <p>dept</p>
+                            <p>Design</p>
+                            <p className="TeamHandle">@Hgreen</p>
                         </Col>
                         <Col md={4}>
                             <span className="TeamPicStyle">
                                 <AiOutlineUserSwitch />
                             </span>
                             <hr />
-                            <p>name</p>
+                            <p>Ayonda Twiqos</p>
                             <p>Team Lead</p>
                             <p>Sales</p>
+                            <p className="TeamHandle">@Atwiq</p>
                         </Col>
                         <Col md={4}>
                             <span className="TeamPicStyle">
                                 <AiOutlineUserAdd />
                             </span>
                             <hr />
-                            <p>name</p>
+                            <p>George Miguel</p>
                             <p>New teammate</p>
-                            <p>U/X & U/I</p>
-                            <p>@pirls</p>
+                            <p>Media</p>
+                            <p className="TeamHandle">@Gmig</p>
                         </Col>
                     </Row>
 
@@ -50,27 +52,30 @@ export default class TeamsTab extends React.Component {
                                 <AiOutlineUserDelete />
                             </span>
                             <hr />
-                            <p>name</p>
-                            <p>position</p>
-                            <p>dept</p>
+                            <p>Jennifer Alford</p>
+                            <p>Supervisor</p>
+                            <p>Marketing</p>
+                            <p className="TeamHandle">@Jalf</p>
                         </Col>
                         <Col md={4}>
                             <span className="TeamPicStyle">
                                 <AiOutlineUser />
                             </span>
                             <hr />
-                            <p>name</p>
-                            <p>position</p>
-                            <p>dept</p>
+                            <p>Greg Matthews</p>
+                            <p>Manager</p>
+                            <p>Business Development</p>
+                            <p className="TeamHandle">@Gmat</p>
                         </Col>
                         <Col md={4}>
                             <span className="TeamPicStyle">
                                 <AiOutlineUser />
                             </span>
                             <hr />
-                            <p>name</p>
-                            <p>position</p>
-                            <p>dept</p>
+                            <p>Shawn James</p>
+                            <p>Regional Manager</p>
+                            <p>H/R</p>
+                            <p className="TeamHandle">@Sjam</p>
                         </Col>
                     </Row>
 
@@ -80,27 +85,30 @@ export default class TeamsTab extends React.Component {
                                 <AiOutlineUser />
                             </span>
                             <hr />
-                            <p>name</p>
-                            <p>position</p>
-                            <p>dept</p>
+                            <p>Penelope McGraw</p>
+                            <p>Team Lead</p>
+                            <p>Server and Security</p>
+                            <p className="TeamHandle">@Pgra</p>
                         </Col>
                         <Col md={4}>
                             <span className="TeamPicStyle">
                                 <AiOutlineUser />
                             </span>
                             <hr />
-                            <p>name</p>
-                            <p>position</p>
-                            <p>dept</p>
+                            <p>Talib Johnson</p>
+                            <p>Accountant</p>
+                            <p>Finance</p>
+                            <p className="TeamHandle">@Tjon</p>
                         </Col>
                         <Col md={4}>
                             <span className="TeamPicStyle">
                                 <AiOutlineUser />
                             </span>
                             <hr />
-                            <p>name</p>
-                            <p>position</p>
-                            <p>dept</p>
+                            <p>Norman Daniels</p>
+                            <p>Account manager</p>
+                            <p>Sales</p>
+                            <p className="TeamHandle">@Ndan</p>
                         </Col>
                     </Row>
                 </Container>

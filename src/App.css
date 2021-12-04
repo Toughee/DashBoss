@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Estonia&family=Pacifico&family=Saira+Condensed:wght@200&display=swap');
 
 header {
-    background-color: rgb(4, 53, 22);
+    background-color: rgb(11, 19, 14);
+    /* background-color: rgb(4, 53, 22); */
     position: fixed;
     width: 280px;
     padding: 2rem;
@@ -51,7 +52,7 @@ li {
     bottom: 0;
     right: 0;
     top: 0;
-    text-align: justify;
+    text-align: center;
 }
 
 .AboutPageStyle {
@@ -72,9 +73,25 @@ li {
 }
 
 .TeamPicStyle {
-    font-size: 4rem;
+    font-size: 4.1rem;
 }
 
 .TeamFontStyle {
     font-family: 'Estonia', cursive;
+}
+
+strong {
+    font-size: 1.5rem;
+}
+
+.TeamHandle {
+    background-color: rgba(156, 111, 156, 0.705);
+}
+
+.TestPanel {
+    background-color: rgba(156, 111, 156, 0.705);
+    text-align: left;
+    color: white;
+    padding: 0.5rem;
+    margin: 0.1rem;
 }

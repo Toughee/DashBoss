@@ -4,7 +4,14 @@ export default class ChangelogTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle">
-                <h1>Version 1.0.2</h1>
+                <h1>Version 1.2.0</h1>
+                <p>Updated components inside app</p>
+                <p>Added sales data and metrics for display inside app</p>
+                <p>Updated README section and documentation for project</p>
+
+                <hr />
+
+                <h1>Version 1.1.0</h1>
                 <p>Added gh-pages to project for eventual app deployment</p>
                 <p>Added new node modules to improve app deployment</p>
                 <p>Updated the majority of the components inside app</p>
