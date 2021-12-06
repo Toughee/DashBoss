@@ -1,10 +1,10 @@
+
 import './App.css'
 
 import React from 'react'
 import TeamsTab from './components/TeamsTab'
 import AboutTab from './components/AboutTab'
 import ChartsTab from './components/ChartsTab'
-import HeatMapsTab from './components/HeatMapsTab'
 import SupportTab from './components/SupportTab'
 import ChangelogTab from './components/ChangelogTab'
 
@@ -14,20 +14,18 @@ function App() {
     return (
         <div className="App">
             <header>
-                <br />
-                <br />
-                <br />
+
 
                 <aside className="UserPanel">
                     <span className="PicStyle">👱</span>
                     <p className="UserNameStyle">
-                        username <button>🖋️ edit</button>
+                        @db_user161
                     </p>
                 </aside>
 
                 <ul>
                     <BrowserRouter>
-                        <li className="TableClass">Dashboard</li>
+                        <li className="TabClassifier">Dashboard</li>
 
                         <hr />
                         <Link to="/TeamsTab">
@@ -39,20 +37,15 @@ function App() {
                         </Link>
 
                         <br />
-                        <li className="TableClass">Sales</li>
+                        <li className="TabClassifier">Sales</li>
                         <hr />
 
                         <Link to="/ChartsTab">
                             <li>Charts & Graphs</li>
                         </Link>
-
-                        <Link to="/HeatMapsTab">
-                            <li>HeatMaps</li>
-                        </Link>
-
                         <br />
 
-                        <li className="TableClass">Help</li>
+                        <li className="TabClassifier">Help</li>
                         <hr />
 
                         <Link to="/SupportTab">
@@ -67,10 +60,6 @@ function App() {
                             <Route path="/AboutTab" element={<AboutTab />} />
                             <Route path="/ChartsTab" element={<ChartsTab />} />
 
-                            <Route
-                                path="/HeatMapsTab"
-                                element={<HeatMapsTab />}
-                            />
                             <Route
                                 path="/SupportTab"
                                 element={<SupportTab />}
