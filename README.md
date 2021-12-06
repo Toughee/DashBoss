@@ -1,5 +1,4 @@
-![App logo](./src/img/Dashboss_logo.png)
-
+![App logo](./public/img/dashboss_logo.png)
 
 # DashBoss
 Business management dashboard created in React
@@ -31,14 +30,14 @@ Proof of concept:
 - [Wiki page for app](https://github.com/Toughee/DashBoss/wiki)
 - [Documentation for project contributors](https://github.com/Toughee/DashBoss/tree/main/docs)
 
-
 ### Completed app tasks:
 
 - [x] Include CircleCI and Travis-CI inside project
 
-
 ### Future app goals:
 
 - [ ] Develop tests for each React component
-- [ ] Better U/I scheme for app
-- [ ] Add interactive map section for app
+- [ ] Improve U.I. design for app
+- [ ] Add interactive map component section for sales by region
+- [ ] Improve U.X. for sales data
+- [ ] Fix current ES module error ```require() of ES modules is not supported.```
