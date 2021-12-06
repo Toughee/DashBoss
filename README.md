@@ -41,4 +41,3 @@ Proof of concept:
 - [ ] Add interactive map component section for sales by region
 - [ ] Improve U.X. for sales data
 - [ ] Fix current ES module error ```require() of ES modules is not supported.```
-
