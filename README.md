@@ -8,7 +8,7 @@ Business management dashboard created in React
 
 ## Why this app as created: 
 
-Proof of concept: 
+Proof of concept: This app was created to serve as both as an example for a Dashboard app created in React, and as a free resource for anybody interested in using it for any of their projects. It currently keeps a changelog inside the app, an active roadmap for future app features and bug fixes, and a wiki page to describe the project better. Pull requests and feature requests are more than welcome, as well as volunteers for anyone interested in improving DashBoss.  
 
 ## How to use:
 
@@ -40,5 +40,5 @@ Proof of concept:
 - [ ] Improve U.I. design for app
 - [ ] Add interactive map component section for sales by region
 - [ ] Improve U.X. for sales data
-- [ ] Fix current ES module error ```require() of ES modules is not supported.```
-
+- [ ] Resolve current ES module error: ```require() of ES modules is not supported.```
+- [ ] Organize all sales metrics and data into a React component

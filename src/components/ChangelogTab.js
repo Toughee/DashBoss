@@ -4,6 +4,11 @@ export default class ChangelogTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle">
+                <h1>Version 1.2.2</h1>
+                <p>Updated documentation for project</p>
+
+                <hr />
+
                 <h1>Version 1.2.1</h1>
                 <p>Updated U.I. scheme for app</p>
                 <p>Finalized component development inside app</p>
