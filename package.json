@@ -1,7 +1,7 @@
 {
   "name": "dashboss",
   "homepage": "https://toughee.github.io/DashBoss/",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "private": true,
   "type":"module",
   "dependencies": {
