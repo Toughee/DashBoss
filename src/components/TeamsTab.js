@@ -8,11 +8,15 @@ import {
 } from 'react-icons/ai'
 import { Container, Row, Col } from 'react-grid-system'
 
+import '../App.css'
+
+
 export default class TeamsTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle container">
                 <Container>
+                <br/>
                     <Row>
                         <Col md={4}>
                             <span className="TeamPicStyle">
@@ -45,6 +49,9 @@ export default class TeamsTab extends React.Component {
                             <p className="TeamHandle">@Gmig</p>
                         </Col>
                     </Row>
+                    <br/>
+                    <br/>
+
 
                     <Row>
                         <Col md={4}>
@@ -64,7 +71,7 @@ export default class TeamsTab extends React.Component {
                             <hr />
                             <p>Greg Matthews</p>
                             <p>Manager</p>
-                            <p>Business Development</p>
+                            <p>DevOps</p>
                             <p className="TeamHandle">@Gmat</p>
                         </Col>
                         <Col md={4}>
@@ -78,6 +85,10 @@ export default class TeamsTab extends React.Component {
                             <p className="TeamHandle">@Sjam</p>
                         </Col>
                     </Row>
+
+                    <br/>
+                    <br/>
+
 
                     <Row>
                         <Col md={4}>
@@ -111,6 +122,9 @@ export default class TeamsTab extends React.Component {
                             <p className="TeamHandle">@Ndan</p>
                         </Col>
                     </Row>
+
+                    <br/>
+
                 </Container>
             </div>
         )

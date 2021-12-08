@@ -39,7 +39,7 @@
     "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
     "fullpr": "git add .&&git commit&&git push&&git merge",
-    "audits": "npm-update-all&&yarn install&&npm audit fix&&npm audit --fix"
+    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix"
   },
   "eslintConfig": {
     "extends": [

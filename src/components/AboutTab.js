@@ -1,10 +1,13 @@
 import React from 'react'
 
+import '../App.css'
+
+
 export default class AboutTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle">
-                <h1>Dashboss is a:</h1>
+                <h1>Dashboss is:</h1>
                 <hr />
 
                 <p>

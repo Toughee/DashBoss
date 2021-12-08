@@ -5,10 +5,13 @@ import {
     XAxis,
     YAxis,
     CartesianGrid,
-    Tooltip
+    Tooltip,
+    Legend
 } from 'recharts'
 
 import { Container, Row, Col } from 'react-grid-system'
+
+import '../App.css'
 
 const data = [
     {
@@ -40,30 +43,30 @@ const data = [
 export default class ChartsTab extends React.Component {
     render() {
         return (
-            <div className="AdminContentPageStyle">
+            <div className="ChartsPageStyle">
                 <Container>
                     <h1>Daily data</h1>
                     <Row>
-                        <Col className="PanelLeft1" md={4}>
-                            Average daily visitors <br />
-                            <strong>(100,441)</strong>
+                        <Col className="PanelLeft1 two columns">
+                            <p>Average daily visitors <br />
+                            <strong>(100,441)</strong></p>
                         </Col>
-                        <Col className="PanelRight1" md={4}>
-                            Average engagement time
+                        <Col className="PanelRight1 two columns">
+                            <p>Average engagement time
                             <br />
-                            <strong>(2 minutes)</strong>
+                            <strong>(2 minutes)</strong></p>
                         </Col>
                     </Row>
                     <Row>
-                        <Col className="PanelLeft2" md={4}>
-                            Users by date
+                        <Col className="PanelLeft2 two columns">
+                            <p>Users by date
                             <br />
-                            <strong>(2,186,564)</strong>
+                            <strong>(2,186,564)</strong></p>
                         </Col>
-                        <Col className="PanelRight2" md={4}>
-                            New users by date
+                        <Col className="PanelRight2 two columns">
+                            <p>New users by date
                             <br />
-                            <strong>(548,651)</strong>
+                            <strong>(548,651)</strong></p>
                         </Col>
                     </Row>
                 </Container>
@@ -71,31 +74,33 @@ export default class ChartsTab extends React.Component {
 
                 <Container>
                     <h1>Company milestones</h1>
-                    <Row>
-                        <Col className="PanelLeft1" md={4}>
-                            <strong>2 minutes</strong> people
+                    <Row className="DataMetricsStyle">
+                        <Col className="PanelLeft1 two columns">
+                            <p><strong>(2 minute use time)</strong> average for each user</p>
                         </Col>
-                        <Col className="PanelRight1" md={4}>
-                            <strong>500,000</strong> new active users by March
-                        </Col>
-
-                        <Col className="PanelLeft2" md={4}>
-                            Increase exposure time by{' '}
-                            <strong>50 seconds</strong>
+                        <Col className="PanelRight1 two columns">
+                            <p><strong>(750,000)</strong> new active users by March</p>
                         </Col>
 
-                        <Col className="PanelRight2" md={4}>
-                            Maintaining a <strong>40%</strong> conversion rate
-                            for all products
+                        <Col className="PanelLeft2 two columns">
+                            <p>Increase exposure time by{' '}
+                            <strong>(50 seconds)</strong></p>
+                        </Col>
+
+                        <Col className="PanelRight2 two columns">
+                            <p>Maintaining a <strong>(40%)</strong> conversion rate
+                            for all products</p>
                         </Col>
                     </Row>
                 </Container>
 
                 <h1>Country statistics</h1>
-
+                <Container>
+                <Row>
+                <Col className="one column">
                 <BarChart
-                    width={900}
-                    height={300}
+                    width={1000}
+                    height={400}
                     data={data}
                     margin={{
                         top: 5,
@@ -105,16 +110,25 @@ export default class ChartsTab extends React.Component {
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="Test" />
+                    <XAxis dataKey="TopCountries" />
                     <YAxis />
                     <Tooltip margin={15} />
+ 
+                    
                     <Bar
                         dataKey="UserTime"
                         fill="#8884d8"
                         background={{ fill: '#eee' }}
                     />
-                    <Bar dataKey="Conversion" fill="#82ca9d" />
+                    <Bar 
+                        dataKey="Conversion" 
+                        fill="#82ca9d" 
+
+                        />
                 </BarChart>
+                </Col>
+                </Row>
+                </Container>
             </div>
         )
     }
