@@ -1,19 +1,13 @@
 
-
 import './App.css'
 
 import {
     AiOutlineApartment,
     AiOutlineAreaChart,
-    AiFillQuestionCircle,
-    AiFillRead,
-    AiOutlineUser
+    AiFillQuestionCircle
 } from 'react-icons/ai'
 
-import { FaLifeRing } from 'react-icons/fa'
-
 import React from 'react'
-import HomePage from './components/HomePage'
 import TeamsTab from './components/TeamsTab'
 import AboutTab from './components/AboutTab'
 import ChartsTab from './components/ChartsTab'
@@ -26,37 +20,47 @@ function App() {
     return (
         <div className="App">
             <header>
-                
+
+                <aside className="UserPanel">
+                    <span className="PicStyle">👱</span>
+                    <p className="UserNameStyle">
+                        @db_user161
+                    </p>
+                </aside>
+
+                <ul>
                     <BrowserRouter>
-                    <ul>
+                        <li className="TabClassifier"><AiOutlineApartment/>Dashboard</li>
 
-                        <Link to="/HomePage">
-                            <li><span className="PicStyle"><AiOutlineUser/></span>@db_user161</li>
-                        </Link>
-
-
+                        <hr />
                         <Link to="/TeamsTab">
-                            <li><AiOutlineApartment/>Teams</li>
+                            <li>Teams</li>
                         </Link>
 
                         <Link to="/AboutTab">
-                            <li><AiFillQuestionCircle/>About</li>
+                            <li>About</li>
                         </Link>
+
+                        <br />
+                        <li className="TabClassifier"><AiOutlineAreaChart/>Sales</li>
+                        <hr />
 
                         <Link to="/ChartsTab">
-                            <li><AiOutlineAreaChart/>Charts & Graphs</li>
+                            <li>Charts & Graphs</li>
                         </Link>
+                        <br />
+
+                        <li className="TabClassifier"><AiFillQuestionCircle/>Help</li>
+                        <hr />
 
                         <Link to="/SupportTab">
-                            <li><FaLifeRing/>Support</li>
+                            <li>Support</li>
                         </Link>
                         <Link to="/ChangelogTab">
-                            <li><AiFillRead/>Changelog</li>
+                            <li>Changelog</li>
                         </Link>
-</ul>
-<br/>
+
                         <Routes>
-                            <Route path="/HomePage" element={<HomePage />} />
                             <Route path="/TeamsTab" element={<TeamsTab />} />
                             <Route path="/AboutTab" element={<AboutTab />} />
                             <Route path="/ChartsTab" element={<ChartsTab />} />
@@ -71,7 +75,7 @@ function App() {
                             />
                         </Routes>
                     </BrowserRouter>
-                
+                </ul>
             </header>
         </div>
     )

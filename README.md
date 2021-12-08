@@ -3,8 +3,7 @@
 # DashBoss
 Business management dashboard created in React
 
-
-![Splash page](./public/img/Dashboss-Splash.png)
+![Splash page](./public/img/Dashboss_Splash.png)
 
 ## Why this app as created: 
 
@@ -33,12 +32,12 @@ Proof of concept: This app was created to serve as both as an example for a Dash
 ### Completed app tasks:
 
 - [x] Include CircleCI and Travis-CI inside project
+- [x] Improve U.I. design for app
+- [x] Improve U.X. for sales data
 
 ### Future app goals:
 
 - [ ] Develop tests for each React component
-- [ ] Improve U.I. design for app
 - [ ] Add interactive map component section for sales by region
-- [ ] Improve U.X. for sales data
 - [ ] Resolve current ES module error: ```require() of ES modules is not supported.```
-- [ ] Organize all sales metrics and data into a React component
+- [ ] Organize all sales metrics and data into a React Databsse component

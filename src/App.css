@@ -1,70 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Pacifico&family=Saira+Condensed:wght@200&display=swap');
-
-header {
-    background-color: rgb(11, 19, 14);
-    position: fixed;
-    width: 280px;
-    padding: 2rem;
-    bottom: 0;
-    left: 0;
-    top: 0;
-    z-index: 0;
-}
+/*
+____________________________________________________
+Menu style
+____________________________________________________
+*/
 
 li {
-    list-style-type: none;
-    font-size: 1.7rem;
-    margin-left: -2rem;
+    font-size: 2rem;
     color: rgb(255, 255, 255);
-    font-family: 'Saira Condensed', sans-serif;
+    display: inline;
+    padding: 0.8rem;
+}
+
+ul {
+    background-color: rgb(11, 19, 14);
+    list-style-type: none;
+    margin: 0rem;
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .TabClassifier{
     font-size: 2.5rem;
 }
 
-.UserPanel {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
-    margin-top: 2rem;
+/*
+____________________________________________________
+Font style
+____________________________________________________
+*/
+
+h1 {
+    font-size: 3.5rem;
 }
 
-.PicStyle {
-    font-size: 5rem;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    margin-bottom: -15rem;
-    display: inline-block;
-    height: 7rem;
-    width: 7rem;
-}
-
-.AppLogo {
-    font-size: 3rem;
-    margin: -1rem;
-}
-
-.TableClass {
+p {
     font-size: 2rem;
 }
+
+/*
+--------------------------------------------------------------
+Page styles
+--------------------------------------------------------------
+*/
 
 .AdminContentPageStyle {
-    position: fixed;
+    padding: 0rem 20rem 0rem 20rem;
+}
+
+.ChartsPageStyle {
     padding: 2rem;
-    bottom: 0;
-    right: 0%;
-    top: 0;
+    padding: 0rem 20rem 0rem 20rem;
+    right: -10%;
+    bottom: 10%;
     text-align: center;
 }
 
 .AboutPageStyle {
-    position: fixed;
     bottom: 0;
     right: 0;
     top: 0;
     padding: 20rem;
+    margin-top: 2rem;
 }
+
+/*
+---------------------------------------------------
+Team tab style
+---------------------------------------------------
+*/
 
 .TeammateStyle {
     background-color: rgb(109, 104, 104);
@@ -82,12 +84,18 @@ li {
     font-family: 'Estonia', cursive;
 }
 
-strong {
-    font-size: 1.5rem;
-}
-
 .TeamHandle {
     background-color: rgba(156, 111, 156, 0.705);
+}
+
+/*
+---------------------------------------------------
+Charts tab style
+---------------------------------------------------
+*/
+
+.DataMetricsStyle {
+    margin-left: 10rem;
 }
 
 .PanelLeft1,
@@ -97,8 +105,8 @@ strong {
     background-color: rgba(156, 111, 156, 0.705);
     text-align: left;
     color: #ffffff;
-    padding: 0.5rem;
-    margin: 0.1rem;
+    padding: 0rem 20rem 0rem 20rem;
+    margin: 0.2rem;
 }
 
 .PanelLeft1 {
@@ -108,7 +116,7 @@ strong {
     background-color: rgba(238, 65, 94, 0.705);
 }
 .PanelRight1 {
-    background-color: rgba(85, 238, 65, 0.705);
+    background-color: rgba(18, 119, 5, 0.705);
 }
 
 .PanelRight2 {
