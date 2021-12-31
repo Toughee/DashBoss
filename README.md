@@ -34,10 +34,10 @@ Proof of concept: This app was created to serve as both as an example for a Dash
 - [x] Include CircleCI and Travis-CI inside project
 - [x] Improve U.I. design for app
 - [x] Improve U.X. for sales data
-
+- [x] Add interactive map component section for sales by region
+- [x] Resolve current ES module error: ```require() of ES modules is not supported.```
 ### Future app goals:
 
 - [ ] Develop tests for each React component
-- [ ] Add interactive map component section for sales by region
-- [ ] Resolve current ES module error: ```require() of ES modules is not supported.```
-- [ ] Organize all sales metrics and data into a React Databsse component
+- [ ] Organize all sales metrics and data into one React Database component
+- [ ] Add option for users to change their username

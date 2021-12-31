@@ -8,19 +8,28 @@ li {
     font-size: 2rem;
     color: rgb(255, 255, 255);
     display: inline;
-    padding: 0.8rem;
+    float: left;
+    padding: 0.5rem 2rem 0rem 2rem;
 }
 
 ul {
-    background-color: rgb(11, 19, 14);
+    background-color: #0b130e;
     list-style-type: none;
     margin: 0rem;
-    padding: 1rem 1rem 2rem 1rem;
+    padding: 1rem 2rem 5rem 2rem;
 }
 
-.TabClassifier{
+.TabClassifier {
     font-size: 2.5rem;
 }
+
+.exp {
+    float: left;
+}
+
+/* #map {
+
+} */
 
 /*
 ____________________________________________________
@@ -86,6 +95,16 @@ Team tab style
 
 .TeamHandle {
     background-color: rgba(156, 111, 156, 0.705);
+}
+
+.editButton {
+    font-size: 2rem;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border: 0.00001px thin #0b130e;
 }
 
 /*

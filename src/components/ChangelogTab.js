@@ -6,6 +6,17 @@ export default class ChangelogTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle">
+                <h1>Version 1.4.0</h1>
+                <p>
+                    • Fixed render issue where countries would not show up
+                    correctly in charts section
+                </p>
+                <p>
+                    • Added map section to display more sales and engagement
+                    data
+                </p>
+
+                <hr />
 
                 <h1>Version 1.3.0</h1>
                 <p>• Complete update to U.I design and style for app</p>
@@ -21,14 +32,17 @@ export default class ChangelogTab extends React.Component {
                 <h1>Version 1.2.1</h1>
                 <p>• Updated U.I. scheme for app</p>
                 <p>• Finalized component development inside app</p>
-                <p>• Updated current app roadmap inside README, project page and wiki page</p>
+                <p>
+                    • Updated current app roadmap inside README, project page
+                    and wiki page
+                </p>
                 <hr />
 
                 <h1>Version 1.2.0</h1>
                 <p>• Updated components inside app</p>
-                <p>• 
-                    Added initial sales data and engagement metrics for display
-                    inside app
+                <p>
+                    • Added initial sales data and engagement metrics for
+                    display inside app
                 </p>
                 <p>•Updated README section and documentation for project</p>
 

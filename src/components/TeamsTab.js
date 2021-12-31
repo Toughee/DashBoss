@@ -10,13 +10,12 @@ import { Container, Row, Col } from 'react-grid-system'
 
 import '../App.css'
 
-
 export default class TeamsTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle container">
                 <Container>
-                <br/>
+                    <br />
                     <Row>
                         <Col md={4}>
                             <span className="TeamPicStyle">
@@ -49,9 +48,8 @@ export default class TeamsTab extends React.Component {
                             <p className="TeamHandle">@Gmig</p>
                         </Col>
                     </Row>
-                    <br/>
-                    <br/>
-
+                    <br />
+                    <br />
 
                     <Row>
                         <Col md={4}>
@@ -86,9 +84,8 @@ export default class TeamsTab extends React.Component {
                         </Col>
                     </Row>
 
-                    <br/>
-                    <br/>
-
+                    <br />
+                    <br />
 
                     <Row>
                         <Col md={4}>
@@ -123,8 +120,7 @@ export default class TeamsTab extends React.Component {
                         </Col>
                     </Row>
 
-                    <br/>
-
+                    <br />
                 </Container>
             </div>
         )
