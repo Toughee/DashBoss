@@ -1,10 +1,9 @@
-
 import './App.css'
 
 import {
     AiOutlineApartment,
     AiOutlineAreaChart,
-    AiFillQuestionCircle
+    AiFillQuestionCircle,
 } from 'react-icons/ai'
 
 import React from 'react'
@@ -20,17 +19,17 @@ function App() {
     return (
         <div className="App">
             <header>
-
                 <aside className="UserPanel">
                     <span className="PicStyle">👱</span>
-                    <p className="UserNameStyle">
-                        @db_user161
-                    </p>
+                    <p className="UserNameStyle">@db_user161</p>
                 </aside>
 
                 <ul>
                     <BrowserRouter>
-                        <li className="TabClassifier"><AiOutlineApartment/>Dashboard</li>
+                        <li className="TabClassifier">
+                            <AiOutlineApartment />
+                            Dashboard
+                        </li>
 
                         <hr />
                         <Link to="/TeamsTab">
@@ -42,7 +41,10 @@ function App() {
                         </Link>
 
                         <br />
-                        <li className="TabClassifier"><AiOutlineAreaChart/>Sales</li>
+                        <li className="TabClassifier">
+                            <AiOutlineAreaChart />
+                            Sales
+                        </li>
                         <hr />
 
                         <Link to="/ChartsTab">
@@ -50,7 +52,10 @@ function App() {
                         </Link>
                         <br />
 
-                        <li className="TabClassifier"><AiFillQuestionCircle/>Help</li>
+                        <li className="TabClassifier">
+                            <AiFillQuestionCircle />
+                            Help
+                        </li>
                         <hr />
 
                         <Link to="/SupportTab">
