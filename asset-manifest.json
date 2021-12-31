@@ -1,22 +1,15 @@
 {
   "files": {
-    "main.css": "/DashBoss/static/css/main.5f9514ba.chunk.css",
-    "main.js": "/DashBoss/static/js/main.3d115587.chunk.js",
-    "main.js.map": "/DashBoss/static/js/main.3d115587.chunk.js.map",
-    "runtime-main.js": "/DashBoss/static/js/runtime-main.d2511f92.js",
-    "runtime-main.js.map": "/DashBoss/static/js/runtime-main.d2511f92.js.map",
-    "static/js/2.632d23e9.chunk.js": "/DashBoss/static/js/2.632d23e9.chunk.js",
-    "static/js/2.632d23e9.chunk.js.map": "/DashBoss/static/js/2.632d23e9.chunk.js.map",
-    "static/js/3.492be2ff.chunk.js": "/DashBoss/static/js/3.492be2ff.chunk.js",
-    "static/js/3.492be2ff.chunk.js.map": "/DashBoss/static/js/3.492be2ff.chunk.js.map",
+    "main.css": "/DashBoss/static/css/main.fe0efaea.css",
+    "main.js": "/DashBoss/static/js/main.4004012b.js",
+    "static/js/787.86023197.chunk.js": "/DashBoss/static/js/787.86023197.chunk.js",
     "index.html": "/DashBoss/index.html",
-    "static/css/main.5f9514ba.chunk.css.map": "/DashBoss/static/css/main.5f9514ba.chunk.css.map",
-    "static/js/2.632d23e9.chunk.js.LICENSE.txt": "/DashBoss/static/js/2.632d23e9.chunk.js.LICENSE.txt"
+    "main.fe0efaea.css.map": "/DashBoss/static/css/main.fe0efaea.css.map",
+    "main.4004012b.js.map": "/DashBoss/static/js/main.4004012b.js.map",
+    "787.86023197.chunk.js.map": "/DashBoss/static/js/787.86023197.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2511f92.js",
-    "static/js/2.632d23e9.chunk.js",
-    "static/css/main.5f9514ba.chunk.css",
-    "static/js/main.3d115587.chunk.js"
+    "static/css/main.fe0efaea.css",
+    "static/js/main.4004012b.js"
   ]
 }
