@@ -38,13 +38,13 @@ node_modules/
 jspm_packages/
 coveragegit
 .history/
+storybook-static/
 
 # TypeScript v1 declaration files
 typings/
 
 # Optional npm cache directory
 .npm
-
 
 # Optional eslint cache
 .eslintcache

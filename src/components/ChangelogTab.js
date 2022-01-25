@@ -6,6 +6,24 @@ export default class ChangelogTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle">
+                <h1>Version 1.5.0</h1>
+                <p>
+                    • Added React testing script for each component inside app
+                </p>
+
+                <p>
+                    • Updated node modules, yarn packages and project
+                    dependencies
+                </p>
+                <hr />
+                <h1>Version 1.4.1</h1>
+
+                <p>
+                    • Updated node modules, yarn packages and project
+                    dependencies
+                </p>
+
+                <hr />
                 <h1>Version 1.4.0</h1>
                 <p>
                     • Fixed render issue where countries would not show up

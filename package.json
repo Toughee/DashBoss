@@ -1,7 +1,7 @@
 {
   "name": "dashboss",
   "homepage": "https://toughee.github.io/DashBoss/",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -14,20 +14,20 @@
     "i": "^0.3.7",
     "leaflet": "^1.7.1",
     "nodemon": "^2.0.15",
-    "npm": "^8.3.0",
+    "npm": "^8.3.2",
     "pigeon-maps": "^0.19.7",
     "prettier": "^2.5.1",
     "react": "^17.0.2",
-    "react-chartjs-2": "^4.0.0",
+    "react-chartjs-2": "^4.0.1",
     "react-dom": "^17.0.2",
     "react-grid-system": "^8.0.1",
     "react-icons": "^4.3.1",
-    "react-leaflet": "^3.2.2",
+    "react-leaflet": "^3.2.5",
     "react-router-dom": "^6.2.1",
     "react-scripts": "^5.0.0",
     "react-simple-maps": "^2.3.0",
     "recharts": "^2.1.8",
-    "web-vitals": "^2.1.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,12 +39,24 @@
     "codecleaner": "npx prettier --write '**/*.js'&&npx prettier --write '**/*.css'&&npx prettier --write '**/*.html'",
     "litereport": "lighthouse http://localhost:3000/ --output json --output csv --output html --output-path tests/Lighthouse_audits/Lite.html --view | lighthouse-ci http://localhost:3000/",
     "fullpr": "git add .&&git commit&&git push&&git merge",
-    "audits": "yarn install&&npm-update-all&&npm audit&&npm audit fix"
+    "audits": "yarn install&&npm-update-all&&npm install react-scripts@latest&&npm audit&&npm audit fix",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
     ]
   },
   "browserslist": {
@@ -58,5 +70,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/builder-webpack5": "^6.4.14",
+    "@storybook/manager-webpack5": "^6.4.14",
+    "@storybook/node-logger": "^6.4.14",
+    "@storybook/preset-create-react-app": "^4.0.0",
+    "@storybook/react": "^6.4.14",
+    "webpack": "^5.67.0"
+  },
+  "resolutions": {
+    "mini-css-extract-plugin": "2.4.5"
   }
 }
