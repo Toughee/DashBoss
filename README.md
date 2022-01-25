@@ -1,9 +1,9 @@
-![App logo](./public/img/fodee_logo.png)
+![App logo](./public/img/dashboss_logo.png)
 
 # DashBoss
 Business management dashboard created in React
 
-![Splash page](./public/img/Fodee_Splash.png)
+![Splash page](./public/img/Dashboss_Splash.png)
 
 ## Why this app as created: 
 
@@ -32,6 +32,8 @@ Proof of concept: This app was created as an example of React state, regular exp
 
 - [x] Include CircleCI and Travis-CI inside project
 - [x] Improve U.I. design for app
+- [x] Add testing scripts for each component
 ### Future app goals:
 
 - [ ] Organize all sales metrics and data into one React Database component
+- [ ] Improve current testing scripts inside app 

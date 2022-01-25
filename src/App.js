@@ -6,7 +6,7 @@ import {
     AiFillQuestionCircle,
     AiFillRead,
     AiOutlineUser,
-    AiFillEdit,
+    // AiFillEdit,
 } from 'react-icons/ai'
 
 import { BsFillPinMapFill } from 'react-icons/bs'
@@ -46,7 +46,9 @@ export default class App extends React.Component {
                                         {this.state.value}
                                     </span>
 
-                                    {/* <button className="editButton">
+                                    {/* 
+                                    future edit option for username
+                                    <button className="editButton">
                                     <AiFillEdit />
                                 </button> */}
                                 </li>
