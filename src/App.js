@@ -26,76 +26,44 @@ import ChangelogTab from './components/ChangelogTab'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 export default class App extends React.Component {
-    state = {
-        value: 'testusername',
-    }
+
 
     render() {
         return (
             <div className="App">
                 <header>
                     <BrowserRouter>
-                        <ul>
-                            <Link to="/HomePage">
-                                <li>
-                                    <span className="PicStyle exp">
-                                        <AiOutlineUser />@
-                                    </span>
-
-                                    <span className="exp">
-                                        {this.state.value}
-                                    </span>
-
-                                    {/* 
-                                    future edit option for username
-                                    <button className="editButton">
-                                    <AiFillEdit />
-                                </button> */}
-                                </li>
-                            </Link>
-                            <Link to="/TeamsTab">
-                                <li>
-                                    <AiOutlineApartment />
-                                    Teams
-                                </li>
-                            </Link>
-
-                            <Link to="/AboutTab">
-                                <li>
-                                    <AiFillQuestionCircle />
-                                    About
-                                </li>
-                            </Link>
-
-                            <Link to="/ChartsTab">
-                                <li>
-                                    <AiOutlineAreaChart />
-                                    Charts & Graphs
-                                </li>
-                            </Link>
-
-                            <Link to="/MapsDataTab">
-                                <li>
-                                    <BsFillPinMapFill />
-                                    Maps data
-                                </li>
-                            </Link>
-
-                            <Link to="/SupportTab">
-                                <li>
-                                    <FaLifeRing />
-                                    Support
-                                </li>
-                            </Link>
-                            <Link to="/ChangelogTab">
-                                <li>
-                                    <AiFillRead />
-                                    Changelog
-                                </li>
-                            </Link>
-                        </ul>
-                        <br />
-                        <Routes>
+                        <details>
+                        <summary>Menu</summary>
+                        {/*
+                        <p class="DashTab"><AiOutlineUser /> username</p>
+                        */}
+                        <Link to="/HomePage">
+                        <p class="DashTab"><BsFillPinMapFill/> Home</p>
+                        </Link>
+                        <Link to="/AboutTab">
+                        <p class="DashTab"><AiFillQuestionCircle /> About</p>
+                        </Link>
+                        <Link to="/TeamsTab">
+                        <p class="DashTab"><AiOutlineApartment /> Teammates</p>
+                        </Link>
+                        
+                        <Link to="/ChartsTab">
+                        <p class="DashTab"><AiOutlineAreaChart /> Charts</p>
+                        </Link>{/*
+                        <Link to="/MapsDataTab">
+                        <p class="DashTab"> Maps</p>
+                        </Link>*/}
+                        <Link to="/SupportTab">
+                        <p class="DashTab"><FaLifeRing /> Support</p>
+                        </Link>
+                        <Link to="/ChangelogTab">
+                        <p class="DashTab"><AiFillRead /> Changelog</p>
+                        </Link>
+                        
+                        </details>
+                        <br/>
+     <Routes>
                             <Route path="/HomePage" element={<HomePage />} />
                             <Route path="/TeamsTab" element={<TeamsTab />} />
                             <Route path="/AboutTab" element={<AboutTab />} />

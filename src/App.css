@@ -4,6 +4,33 @@ Menu style
 ____________________________________________________
 */
 
+details {
+    background-color: #0b130e;
+    width: 10%;
+    z-index: auto;
+    float: left;
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    display: inline;
+    position: static;
+}
+
+.DashTab,
+a:link {
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    text-align: right;
+    z-index: -1;
+    position: relative;
+}
+
 li {
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
