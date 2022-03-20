@@ -26,44 +26,54 @@ import ChangelogTab from './components/ChangelogTab'
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 
 export default class App extends React.Component {
-
-
     render() {
         return (
             <div className="App">
                 <header>
                     <BrowserRouter>
                         <details>
-                        <summary>Menu</summary>
-                        {/*
+                            <summary>Menu</summary>
+                            {/*
                         <p class="DashTab"><AiOutlineUser /> username</p>
                         */}
-                        <Link to="/HomePage">
-                        <p class="DashTab"><BsFillPinMapFill/> Home</p>
-                        </Link>
-                        <Link to="/AboutTab">
-                        <p class="DashTab"><AiFillQuestionCircle /> About</p>
-                        </Link>
-                        <Link to="/TeamsTab">
-                        <p class="DashTab"><AiOutlineApartment /> Teammates</p>
-                        </Link>
-                        
-                        <Link to="/ChartsTab">
-                        <p class="DashTab"><AiOutlineAreaChart /> Charts</p>
-                        </Link>{/*
+                            <Link to="/HomePage">
+                                <p class="DashTab">
+                                    <BsFillPinMapFill /> Home
+                                </p>
+                            </Link>
+                            <Link to="/AboutTab">
+                                <p class="DashTab">
+                                    <AiFillQuestionCircle /> About
+                                </p>
+                            </Link>
+                            <Link to="/TeamsTab">
+                                <p class="DashTab">
+                                    <AiOutlineApartment /> Teammates
+                                </p>
+                            </Link>
+
+                            <Link to="/ChartsTab">
+                                <p class="DashTab">
+                                    <AiOutlineAreaChart /> Charts
+                                </p>
+                            </Link>
+                            {/*
                         <Link to="/MapsDataTab">
                         <p class="DashTab"> Maps</p>
                         </Link>*/}
-                        <Link to="/SupportTab">
-                        <p class="DashTab"><FaLifeRing /> Support</p>
-                        </Link>
-                        <Link to="/ChangelogTab">
-                        <p class="DashTab"><AiFillRead /> Changelog</p>
-                        </Link>
-                        
+                            <Link to="/SupportTab">
+                                <p class="DashTab">
+                                    <FaLifeRing /> Support
+                                </p>
+                            </Link>
+                            <Link to="/ChangelogTab">
+                                <p class="DashTab">
+                                    <AiFillRead /> Changelog
+                                </p>
+                            </Link>
                         </details>
-                        <br/>
-     <Routes>
+                        <br />
+                        <Routes>
                             <Route path="/HomePage" element={<HomePage />} />
                             <Route path="/TeamsTab" element={<TeamsTab />} />
                             <Route path="/AboutTab" element={<AboutTab />} />
