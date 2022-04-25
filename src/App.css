@@ -15,6 +15,7 @@ details {
     padding: 2rem;
     display: inline;
     position: static;
+    cursor: pointer;
 }
 
 .DashTab,
@@ -52,6 +53,14 @@ ul {
 
 .exp {
     float: left;
+}
+
+.test {
+    border: 2px saddlebrown solid;
+    text-align: center;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
+
 }
 
 /* #map {
@@ -113,7 +122,7 @@ Team tab style
 }
 
 .TeamPicStyle {
-    font-size: 4.1rem;
+    font-size: 5rem;
 }
 
 .TeamFontStyle {
