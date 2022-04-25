@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DashBoss/static/css/main.a34014b5.css",
-    "main.js": "/DashBoss/static/js/main.b072f9de.js",
+    "main.css": "/DashBoss/static/css/main.408492f8.css",
+    "main.js": "/DashBoss/static/js/main.a8e4c58a.js",
     "static/js/787.354bd01f.chunk.js": "/DashBoss/static/js/787.354bd01f.chunk.js",
     "index.html": "/DashBoss/index.html",
-    "main.a34014b5.css.map": "/DashBoss/static/css/main.a34014b5.css.map",
-    "main.b072f9de.js.map": "/DashBoss/static/js/main.b072f9de.js.map",
+    "main.408492f8.css.map": "/DashBoss/static/css/main.408492f8.css.map",
+    "main.a8e4c58a.js.map": "/DashBoss/static/js/main.a8e4c58a.js.map",
     "787.354bd01f.chunk.js.map": "/DashBoss/static/js/787.354bd01f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a34014b5.css",
-    "static/js/main.b072f9de.js"
+    "static/css/main.408492f8.css",
+    "static/js/main.a8e4c58a.js"
   ]
 }
