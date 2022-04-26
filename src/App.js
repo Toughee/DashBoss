@@ -29,14 +29,50 @@ export default class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <header>
+                
                     <BrowserRouter>
-                        <details>
-                            <summary>Menu</summary>
+
+                    <div id="menuDiv">
+
+<div id="mainMenu">
+    <ul>
+
+        <li><a href="#">DashBoss</a></li>
+
+        <li>
+
+
+            <span>☰  <i class="arrow"></i></span>
+            <ul class="dropdown right0">
+            <Link to="/TeamsTab">
+                <li><a href="#"><AiOutlineApartment />Teammates</a></li>
+                </Link>
+                <Link to="/ChartsTab">
+                <li><a href="#"><AiOutlineAreaChart /> Charts</a></li>
+                </Link>
+            <Link to="/AboutTab">
+                <li><a href="#"><AiFillQuestionCircle /> About</a></li>
+                </Link>
+                <Link to="/SupportTab">
+                <li><a href="#"><FaLifeRing /> Support</a></li>
+                </Link>
+                <Link to="/ChangelogTab">
+                <li><a href="#"><AiFillRead />Changelog</a></li>
+                </Link>
+                <li>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</div>
+
+
                             {/*
                         <p class="DashTab"><AiOutlineUser /> username</p>
                         */}
-                            <Link to="/HomePage">
+                            {/* <Link to="/HomePage">
                                 <p class="DashTab">
                                     <BsFillPinMapFill /> Home
                                 </p>
@@ -56,12 +92,12 @@ export default class App extends React.Component {
                                 <p class="DashTab">
                                     <AiOutlineAreaChart /> Charts
                                 </p>
-                            </Link>
+                            </Link> */}
                             {/*
                         <Link to="/MapsDataTab">
                         <p class="DashTab"> Maps</p>
                         </Link>*/}
-                            <Link to="/SupportTab">
+                            {/* <Link to="/SupportTab">
                                 <p class="DashTab">
                                     <FaLifeRing /> Support
                                 </p>
@@ -70,9 +106,8 @@ export default class App extends React.Component {
                                 <p class="DashTab">
                                     <AiFillRead /> Changelog
                                 </p>
-                            </Link>
-                        </details>
-                        <br />
+                            </Link> */}
+
                         <Routes>
                             <Route path="/HomePage" element={<HomePage />} />
                             <Route path="/TeamsTab" element={<TeamsTab />} />
@@ -94,7 +129,7 @@ export default class App extends React.Component {
                             />
                         </Routes>
                     </BrowserRouter>
-                </header>
+                
             </div>
         )
     }

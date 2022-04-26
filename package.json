@@ -1,7 +1,7 @@
 {
   "name": "dashboss",
   "homepage": "https://toughee.github.io/DashBoss/",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
