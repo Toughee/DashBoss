@@ -29,107 +29,80 @@ export default class App extends React.Component {
     render() {
         return (
             <div className="App">
-                
-                    <BrowserRouter>
-
+                <BrowserRouter>
                     <div id="menuDiv">
+                        <div id="mainMenu">
+                            <ul>
+                                <li>
+                                    <a href="#">DashBoss</a>
+                                </li>
 
-<div id="mainMenu">
-    <ul>
+                                <li>
+                                    <span>
+                                        ☰ <i class="arrow"></i>
+                                    </span>
+                                    <ul class="dropdown right0">
+                                        <Link to="/TeamsTab">
+                                            <li>
+                                                <a href="#">
+                                                    <AiOutlineApartment />
+                                                    Teammates
+                                                </a>
+                                            </li>
+                                        </Link>
+                                        <Link to="/ChartsTab">
+                                            <li>
+                                                <a href="#">
+                                                    <AiOutlineAreaChart />{' '}
+                                                    Charts
+                                                </a>
+                                            </li>
+                                        </Link>
+                                        <Link to="/AboutTab">
+                                            <li>
+                                                <a href="#">
+                                                    <AiFillQuestionCircle />{' '}
+                                                    About
+                                                </a>
+                                            </li>
+                                        </Link>
+                                        <Link to="/SupportTab">
+                                            <li>
+                                                <a href="#">
+                                                    <FaLifeRing /> Support
+                                                </a>
+                                            </li>
+                                        </Link>
+                                        <Link to="/ChangelogTab">
+                                            <li>
+                                                <a href="#">
+                                                    <AiFillRead />
+                                                    Changelog
+                                                </a>
+                                            </li>
+                                        </Link>
+                                        <li></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-        <li><a href="#">DashBoss</a></li>
+                    <Routes>
+                        <Route path="/HomePage" element={<HomePage />} />
+                        <Route path="/TeamsTab" element={<TeamsTab />} />
+                        <Route path="/AboutTab" element={<AboutTab />} />
+                        <Route path="/ChartsTab" element={<ChartsTab />} />
 
-        <li>
+                        <Route path="/MapsDataTab" element={<MapsDataTab />} />
 
-
-            <span>☰  <i class="arrow"></i></span>
-            <ul class="dropdown right0">
-            <Link to="/TeamsTab">
-                <li><a href="#"><AiOutlineApartment />Teammates</a></li>
-                </Link>
-                <Link to="/ChartsTab">
-                <li><a href="#"><AiOutlineAreaChart /> Charts</a></li>
-                </Link>
-            <Link to="/AboutTab">
-                <li><a href="#"><AiFillQuestionCircle /> About</a></li>
-                </Link>
-                <Link to="/SupportTab">
-                <li><a href="#"><FaLifeRing /> Support</a></li>
-                </Link>
-                <Link to="/ChangelogTab">
-                <li><a href="#"><AiFillRead />Changelog</a></li>
-                </Link>
-                <li>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</div>
-
-</div>
-
-
-                            {/*
-                        <p class="DashTab"><AiOutlineUser /> username</p>
-                        */}
-                            {/* <Link to="/HomePage">
-                                <p class="DashTab">
-                                    <BsFillPinMapFill /> Home
-                                </p>
-                            </Link>
-                            <Link to="/AboutTab">
-                                <p class="DashTab">
-                                    <AiFillQuestionCircle /> About
-                                </p>
-                            </Link>
-                            <Link to="/TeamsTab">
-                                <p class="DashTab">
-                                    <AiOutlineApartment /> Teammates
-                                </p>
-                            </Link>
-
-                            <Link to="/ChartsTab">
-                                <p class="DashTab">
-                                    <AiOutlineAreaChart /> Charts
-                                </p>
-                            </Link> */}
-                            {/*
-                        <Link to="/MapsDataTab">
-                        <p class="DashTab"> Maps</p>
-                        </Link>*/}
-                            {/* <Link to="/SupportTab">
-                                <p class="DashTab">
-                                    <FaLifeRing /> Support
-                                </p>
-                            </Link>
-                            <Link to="/ChangelogTab">
-                                <p class="DashTab">
-                                    <AiFillRead /> Changelog
-                                </p>
-                            </Link> */}
-
-                        <Routes>
-                            <Route path="/HomePage" element={<HomePage />} />
-                            <Route path="/TeamsTab" element={<TeamsTab />} />
-                            <Route path="/AboutTab" element={<AboutTab />} />
-                            <Route path="/ChartsTab" element={<ChartsTab />} />
-
-                            <Route
-                                path="/MapsDataTab"
-                                element={<MapsDataTab />}
-                            />
-
-                            <Route
-                                path="/SupportTab"
-                                element={<SupportTab />}
-                            />
-                            <Route
-                                path="/ChangelogTab"
-                                element={<ChangelogTab />}
-                            />
-                        </Routes>
-                    </BrowserRouter>
-                
+                        <Route path="/SupportTab" element={<SupportTab />} />
+                        <Route
+                            path="/ChangelogTab"
+                            element={<ChangelogTab />}
+                        />
+                    </Routes>
+                </BrowserRouter>
             </div>
         )
     }

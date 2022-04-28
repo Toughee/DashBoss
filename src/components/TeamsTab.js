@@ -18,7 +18,6 @@ export default class TeamsTab extends React.Component {
                     <br />
                     <Row>
                         <Col md={4} className="test">
-
                             <span className="TeamPicStyle">
                                 <AiOutlineUser />
                             </span>
@@ -27,7 +26,6 @@ export default class TeamsTab extends React.Component {
                             <p>Team Lead</p>
                             <p>Design</p>
                             <p className="TeamHandle">@Hgreen</p>
-
                         </Col>
                         <Col md={4} className="test">
                             <span className="TeamPicStyle">
