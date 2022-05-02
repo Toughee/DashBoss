@@ -6,7 +6,18 @@ export default class ChangelogTab extends React.Component {
     render() {
         return (
             <div className="AdminContentPageStyle">
-                <h1>Version 3.0.1</h1>
+
+                <h1>Version 3.1.1</h1>
+                <p>
+                    • 
+                </p>
+                <p>
+                    • Completed update for all npm modules, yarn packages and
+                    dependencies
+                </p>
+
+                <hr />
+                <h1>Version 3.1.0</h1>
                 <p>
                     • Resolved responsive media queries for all UX and UI
                     elements inside app
