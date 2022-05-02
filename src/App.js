@@ -5,11 +5,9 @@ import {
     AiOutlineAreaChart,
     AiFillQuestionCircle,
     AiFillRead,
-    AiOutlineUser,
-    // AiFillEdit,
 } from 'react-icons/ai'
 
-import { BsFillPinMapFill } from 'react-icons/bs'
+// import { BsFillPinMapFill } from 'react-icons/bs'
 
 import { FaLifeRing } from 'react-icons/fa'
 
