@@ -29,6 +29,29 @@ export default class AboutTab extends React.Component {
                     The app is entirely a example of an admin page and is not
                     related to any exisitng company
                 </p>
+                <h1>Support:</h1>
+                <hr />
+
+                <p>
+                    Submit a new Pull Request to add or include additional
+                    content{' '}
+                    <a href={'https://github.com/tjdev7/DashBoss/pulls'}>
+                        {' '}
+                        here
+                    </a>
+                </p>
+
+                <p>
+                    Guidelines for requesting new features/additional content
+                    <a
+                        href={
+                            'https://github.com/tjdev7/DashBoss/blob/main/docs/FEATURE_REQUEST.md'
+                        }
+                    >
+                        {' '}
+                        here
+                    </a>
+                </p>
             </div>
         )
     }
