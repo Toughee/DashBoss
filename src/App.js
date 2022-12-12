@@ -18,7 +18,6 @@ import AboutTab from './components/AboutTab'
 import ChartsTab from './components/ChartsTab'
 import MapsDataTab from './components/MapsDataTab'
 
-import SupportTab from './components/SupportTab'
 import ChangelogTab from './components/ChangelogTab'
 
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
@@ -52,7 +51,7 @@ export default class App extends React.Component {
                                             <li>
                                                 <a href="#">
                                                     <AiOutlineAreaChart />{' '}
-                                                    Charts
+                                                    Sales and Chart metrics
                                                 </a>
                                             </li>
                                         </Link>
@@ -61,13 +60,6 @@ export default class App extends React.Component {
                                                 <a href="#">
                                                     <AiFillQuestionCircle />{' '}
                                                     About
-                                                </a>
-                                            </li>
-                                        </Link>
-                                        <Link to="/SupportTab">
-                                            <li>
-                                                <a href="#">
-                                                    <FaLifeRing /> Support
                                                 </a>
                                             </li>
                                         </Link>
@@ -94,7 +86,6 @@ export default class App extends React.Component {
 
                         <Route path="/MapsDataTab" element={<MapsDataTab />} />
 
-                        <Route path="/SupportTab" element={<SupportTab />} />
                         <Route
                             path="/ChangelogTab"
                             element={<ChangelogTab />}

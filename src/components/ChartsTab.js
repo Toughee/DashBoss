@@ -16,14 +16,14 @@ export default class ChartsTab extends React.Component {
                         <Col className="PanelLeft1 two columns">
                             <p>
                                 Average daily visitors <br />
-                                <strong>(100,441)</strong>
+                                <strong>100,441</strong>
                             </p>
                         </Col>
                         <Col className="PanelRight1 two columns">
                             <p>
                                 Average engagement time
                                 <br />
-                                <strong>(2 minutes)</strong>
+                                <strong>Aprox 2 minutes</strong>
                             </p>
                         </Col>
                     </Row>
@@ -32,14 +32,14 @@ export default class ChartsTab extends React.Component {
                             <p>
                                 Users by date
                                 <br />
-                                <strong>(2,186,564)</strong>
+                                <strong>2,186,564</strong>
                             </p>
                         </Col>
                         <Col className="PanelRight2 two columns">
                             <p>
                                 New users by date
                                 <br />
-                                <strong>(548,651)</strong>
+                                <strong>548,651</strong>
                             </p>
                         </Col>
                     </Row>
@@ -51,27 +51,27 @@ export default class ChartsTab extends React.Component {
                     <Row className="DataMetricsStyle">
                         <Col className="PanelLeft1 two columns">
                             <p>
-                                <strong>(2 minute use time)</strong> average for
+                                <strong>2 minute use time</strong> average for
                                 each user
                             </p>
                         </Col>
                         <Col className="PanelRight1 two columns">
                             <p>
-                                <strong>(750,000)</strong> new active users by
+                                <strong>750,000</strong> new active users by
                                 March
                             </p>
                         </Col>
 
                         <Col className="PanelLeft2 two columns">
                             <p>
-                                Increase exposure time by{' '}
-                                <strong>(50 seconds)</strong>
+                                Increase exposure time by
+                                <strong>50 seconds</strong>
                             </p>
                         </Col>
 
                         <Col className="PanelRight2 two columns">
                             <p>
-                                Maintaining a <strong>(40%)</strong> conversion
+                                Maintaining a <strong>40%</strong> conversion
                                 rate for all products
                             </p>
                         </Col>
